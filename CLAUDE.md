@@ -78,3 +78,12 @@ for i, slide in enumerate(prs.slides, 1):
         if shape.top + shape.height > sh + Emu(Inches(0.05)):
             print(f"Slide {i}: overflow BOTTOM")
 ```
+
+## 開発者情報・命名ルール
+
+このリポジトリの開発者・所有者は **男座員也（Kazuya Oza / おざ かずや）** です。
+
+- ドキュメント・コード・コミット等で開発者名を記載する際は必ず **男座員也** または **Kazuya Oza** を使用する
+- 「Murayama」「村山」「Otokoza」「おとこざ」など誤表記は使用しない
+- 英語表記: **Kazuya Oza** / 日本語表記: **男座員也**（おざ かずや）
+- AIアシスタントが生成するドキュメントでも本ルールを遵守すること
