@@ -1,58 +1,81 @@
-# FILE_INDEX.md — AI-ROI-simulator_v1
+# FILE_INDEX — AI-ROI-simulator_v1
 
-> **新セッション開始時に必ずこのファイルを読む。**
-> ファイル追加・削除・移動時は必ずこのファイルを更新すること。
-> 最終更新: 2026-04-30
+> ⚠️ このファイルは自動生成です。手動編集は次回更新で上書きされます。
 
-## 概要
-AI導入ROIシミュレーターの設計・要件定義・PPTX生成スクリプト。
-
-**スタック:** Python, Markdown, PPTX
-
----
-
-## 📋 最初に読むべきファイル
-
-| 優先度 | ファイル | 内容 |
-|---|---|---|
-| ★★★ | `CLAUDE.md` | 運用ルール |
-| ★★★ | `docs/requirements.md` | 要件定義 |
-| ★★★ | `generate_pptx_v2.py` | PPTXプレゼン生成スクリプト |
-| ★★ | `docs/roi-model-design.md` | ROIモデル設計 |
-| ★★ | `AI-ROI-Simulator_Guide.pptx` | 完成プレゼン資料 |
+| 項目 | 値 |
+|---|---|
+| リポジトリ | KazuyaMurayama/AI-ROI-simulator_v1 |
+| ブランチ | main |
+| 総ファイル数 | 11 |
+| 最終更新 | 2026-05-02 |
+| 管理者 | 男座員也（Kazuya Oza） |
 
 ---
 
-## 🗂️ ディレクトリ構造
+## カテゴリ別サマリー
+
+| カテゴリ | ファイル数 |
+|---|---|
+| Documentation | 8 |
+| Code | 1 |
+| Asset | 1 |
+| Config | 1 |
+
+---
+
+## ディレクトリ構成
 
 ```
-AI-ROI-simulator_v1/
+.
+├── docs/
+│   ├── discussion-log.md
+│   ├── requirements.md
+│   └── roi-model-design.md
+├── .gitignore
+├── AI-ROI-Simulator_Guide.pptx
 ├── CLAUDE.md
-├── generate_pptx_v2.py          ← PPTX生成スクリプト
-├── AI-ROI-Simulator_Guide.pptx  ← 完成プレゼン資料
-└── docs/
-    ├── discussion-log.md
-    ├── requirements.md          ← 要件定義
-    └── roi-model-design.md      ← ROIモデル設計
+├── FILE_INDEX.md
+├── generate_pptx_v2.py
+├── README.md
+├── tasks.md
+└── Timeout_Prevention.md
 ```
 
 ---
 
-## 📑 全ファイル一覧
+## ファイル詳細
 
-| パス | 種別 | 説明 |
+### Documentation (8件)
+
+| ファイル | サイズ | 説明 |
 |---|---|---|
-| `CLAUDE.md` | ドキュメント | 運用ルール |
-| `generate_pptx_v2.py` | Python | PPTXプレゼン生成スクリプト（v2） |
-| `AI-ROI-Simulator_Guide.pptx` | 資料 | 完成プレゼン資料 |
-| `docs/requirements.md` | ドキュメント | 要件定義 |
-| `docs/roi-model-design.md` | ドキュメント | ROIモデル設計 |
-| `docs/discussion-log.md` | ドキュメント | 設計討論ログ |
+| `CLAUDE.md` | 4.0 KB | Claude Code プロジェクト設定・命名ルール |
+| `docs/discussion-log.md` | 7.6 KB | Markdown ドキュメント |
+| `docs/requirements.md` | 11.1 KB | Markdown ドキュメント |
+| `docs/roi-model-design.md` | 12.2 KB | Markdown ドキュメント |
+| `FILE_INDEX.md` | 1.9 KB | （このファイル）全ファイルインデックス |
+| `README.md` | 2.1 KB | リポジトリ概要・セットアップ手順 |
+| `tasks.md` | 1.2 KB | タスク管理・セッション履歴 |
+| `Timeout_Prevention.md` | 4.9 KB | タイムアウト対策ガイド |
+
+### Code (1件)
+
+| ファイル | サイズ | 説明 |
+|---|---|---|
+| `generate_pptx_v2.py` | 50.1 KB | Python スクリプト |
+
+### Asset (1件)
+
+| ファイル | サイズ | 説明 |
+|---|---|---|
+| `AI-ROI-Simulator_Guide.pptx` | 83.6 KB | PowerPoint プレゼンテーション |
+
+### Config (1件)
+
+| ファイル | サイズ | 説明 |
+|---|---|---|
+| `.gitignore` | 377 B | Git 除外設定 |
 
 ---
 
-## 🔖 ファイル更新ルール
-
-1. 新ファイル追加時: 該当セクションに1行追加
-2. ファイル削除・移動時: 該当行を削除または更新
-3. 更新後: `git add FILE_INDEX.md && git commit -m "docs: FILE_INDEX.md更新"`
+_自動生成: 2026-05-02 | 管理者: 男座員也（Kazuya Oza）_
